@@ -21,7 +21,7 @@ namespace Week2Lesson8
             {
                 if (check1 && check2)
                 {
-                    if (val1 >= 0 && val2 >= 0)
+                    if (val1 > 0 && val2 > 0)
                     {
                         for (int i = 1; i <= int.MaxValue; i++)
                         {
