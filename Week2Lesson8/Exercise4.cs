@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,14 +29,15 @@ namespace Week2Lesson8
             int count = 1;
             if (check)
             {
-                for (int i = 1; i <= triangle; i++)
+
+                for (int i = 1; count <= triangle; i++)
                 {
                     for (int j = 1; j <= i; j++)
-                        if (count <= triangle)
-                        {
-                            Console.Write($"{count}" + " ", count++);
-                        }
-                    Console.WriteLine("\r");
+                    {
+                        Console.Write($"{count} ", count++);
+                    }
+                 Console.WriteLine("\r");
+
                 }
             }
             else

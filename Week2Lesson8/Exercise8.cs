@@ -25,12 +25,6 @@ namespace Week2Lesson8
             string reverse = String.Empty;
             if (!string.IsNullOrEmpty(text))
             {
-                //char[] cArray = text.ToCharArray();
-                //for (int i = cArray.Length - 1; i > -1; i--)
-                //{
-                //    reverse += cArray[i];
-                //}
-                //Console.WriteLine(reverse);
                 for (int i = text.Length; i > 0; i--)
                 {
                     reverse += text[i-1];
